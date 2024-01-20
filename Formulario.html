@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="paginaWeb.css">
+</head>
+<body>
+    <div>
+        <form action="mailto:Rukymancha@gmail.com" method="post">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <table>
+                    <tr>
+                        <td><label for="nombre">Nombre:</label></td>
+                        <td></td>
+                        <td><label for="apellidos">Apellidos:</label></td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="nombre" id="nombre" placeholder="Introduce Nombre" required>
+                        </td>
+                        <td></td>
+                        <td>
+                            <input type="text" name="apellidos" id="apellidos" placeholder="Introduce Apellidos" required>  
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td><label for="correo">Correo Electronico:</label></td>
+                        <td></td>
+                        <td><label for="numero">Número de Teléfono:</label></td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="email" name="correo" id="correo" placeholder="Introduce Correo" required>
+                        </td>
+                        <td></td>
+                        <td>
+                            <input type="tel" name="numero" id="numero" placeholder="000000000" required>  
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Datos Adicionales</legend>
+                <table>
+                    <tr>
+                        <td><label for="nacioalidad">Nacionalidad:</label></td>
+                        <td></td>
+                        <td><label for="codPost">Codigo Postal:</label></td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="nacionalidad" id="nacionalidad">
+                                <option value="">Selecciona Opción</option>
+                                <optgroup label="Europa"></optgroup>
+                                <option value="">España</option>
+                                <option value="">Alemania</option>
+                                <option value="">Francia</option>
+                                <option value="">Inglaterra</option>
+                                <option value="">Italia</option>
+                                <optgroup label="America"></optgroup>
+                                <option value="">Brasil</option>
+                                <option value="">Argentina</option>
+                                <option value="">Colombia</option>
+                                <option value="">EEUU</option>
+                                <option value="">Canada</option>
+                                <optgroup label="Resto del MUndo"></optgroup>
+                                <option value="">...</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td>
+                            <input type="text" name="codPost" id="codigo postal" placeholder="000000" required>  
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td><label for="genero">Género:</label></td>
+                        <td></td>
+                        <td><label for="edad">Edad:</label></td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="genero" id="genero" required>M
+                            <input type="radio" name="genero" id="genero" required>F
+                            <input type="radio" name="genero" id="genero" required>Other
+                        </td>
+                        <td></td>
+                        <td>
+                            <input type="date" name="edad" id="edad" placeholder="dd/mm/yyyy" required>  
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Confirmar Opciones</legend>
+                <button id="bEnviar" type="submit">Enviar</button>
+                <button id="bReset" type="reset"><img id="iReset" src="reset.png" alt="borrar"></button>
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi gimnasio</title>
+    <!-- link a paginaWeb.css -->
+    <link rel="stylesheet" href="paginaWeb.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="card text-bg-dark">
+        <img src="fondoGym.jpg" class="card-img">
+        <div class="card-img-overlay">
+            <h5 class="card-title">MiGimnasio</h5>
+            <p class="card-text">Villaverde</p>
+            <div id="buttons-list" class="list-group list-group-horizontal">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">Instalaciones</a>
+                <a class="list-group-item list-group-item-action" href="http://127.0.0.1:3000/horario.html">Horarios</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Clases</a>
+                <a class="list-group-item list-group-item-action" href="http://127.0.0.1:3000/Formulario.html">Regístrate</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="d2">
+        <table id="campos">
+            <tr>
+                <td>
+                    <label for="">Descripción</label>
+                </td>
+                <td>
+                    <label for="">Cómo llegar</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        Somos el gimnasio con la sala fitness más grande de Villaverde, ubicado en el Centro Comercial
+                        Los Ángeles. En MiGimnasio encontrarás un espacio donde llevar a cabo tu entrenamiento
+                        con instalaciones equipadas con lo último en innovación, maquinaria y tecnología fitness.
+
+
+
+                        Estudios con y burbujas de clases virtuales para que entrenes cuando quieras. Zonas de
+                        entrenamiento funcional y cross, pesajes gratuitos Inbody, zona de SPA con solárium, baño turco
+                        y sauna y grandes vestuarios equipados con taquillas individuales y secadores.
+
+
+
+                        Todo incluido y sin permanencia.
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        Calle de la silvina 28
+
+                        Avda. Andalucía Km. 7,100
+
+                        28041 Madrid
+
+                        <a
+                            href="https://www.google.com/maps/place/Dreamfit+Villaverde/@40.3628373,-3.7060309,15z/data=!4m6!3m5!1s0xd4226f0233966f7:0x14de81b30c58d123!8m2!3d40.3629354!4d-3.6910534!16s%2Fg%2F11bc96wn55?entry=tts&shorturl=1">Google
+                            Maps</a>
+                    </p>
+                    <h3>Lunes a Viernes:</h3>
+                    <p>6:00 - 23:00 horas.</p>
+                    <h3>Sábados:</h3>
+                    <p>8:00 - 20:00 horas.</p>
+                    <h3>Domingos y festivos:</h3>
+                    <p>8:00 - 15:00 horas.</p>
+                    <a href="https://www.dreamfit.es/centros/villaverde#instalaciones">MiGimansio@migimnasio.com</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="card" data-bs-spy="scroll" data-bs-target="buttons-list" style="width: 100%;">
+        <div class="card-body">
+            <h5 class="card-title" id="list-item-1">Instalaciones</h5>
+            <p class="card-text">Nuestro gimnasio cuenta con las instalaciones mas novedosas y punteras del mundo </p>
+        </div>
+    </div>
+    <div class="card" data-bs-spy="scroll" data-bs-target="buttons-list" style="width: 100%;">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="instalaciones1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="instalaciones2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="instalaciones3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="instalaciones4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="instalciones6.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="card" data-bs-spy="scroll" data-bs-target="buttons-list" style="width: 100%;">
+        <div class="card-body">
+            <h5 class="card-title" id="list-item-3">Clases</h5>
+            <p class="card-text">Podreis encontrar clases destinadas a mejorar la salud fisica y estado fisico, os
+                tendreis que registras en las clases con anterioridad de forma presencial</p>
+            <div class="card text-bg-dark">
+                <img src="pesas.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h6 class="card-title">Clase para</h6>
+                    <p class="card-text">Baile</p>
+                    <hr>
+                    <h6 class="card-title">Clase para</h6>
+                    <p class="card-text">Ritmo</p>
+                    <hr>
+                    <h6 class="card-title">Clase para</h6>
+                    <p class="card-text">Alta Intensiad</p>
+                    <hr>
+                    <h6 class="card-title">Clase para</h6>
+                    <p class="card-text">Fuerza</p>
+                    <hr>
+                    <h6 class="card-title">Clase para</h6>
+                    <p class="card-text">Cuerpo y Mente</p>
+                    <hr>
+                    <h6 class="card-title">Clase para</h6>
+                    <p class="card-text">Cardio</p>
+                    <hr>
+                </div>
+              </div>
+        </div>
+    </div>
+    <footer>
+        <p>
+            ©Copyright MiGimnasio.Dpt.Programación Web
+        </p>
+    </footer>
+</body>
+
+</html>
